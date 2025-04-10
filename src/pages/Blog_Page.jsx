@@ -40,12 +40,12 @@ const Blog_Page = () => {
                     <h1 className="text-center my-6 text-6xl font-serif">{blogData.title}</h1>
                 </main>
                 
-                <img className="w-full h-[24rem] bg-emerald-200 border-none" src={`${blogData.previewImage}`}/>
+                <img className="w-full h-[24rem] bg-cover border-none" src={`${blogData.previewImage}`}/>
 
                 <main className="flex flex-col gap-8 px-20 py-16 mb-16 bg-[#FFFDF9]">
                     <header className="flex justify-between items-center">
                         <div className="flex gap-3">
-                            <img className="w-[4rem] aspect-square rounded-full bg-red-600" src={`/GalerieWebsite/assets/Users/Anoymaus.png`}/>
+                            <img className="w-[4rem] aspect-square rounded-full bg-cover" src={`/GalerieWebsite/assets/Users/Anoymaus.png`}/>
 
                             <div className="flex flex-col">
                                 <p className="font-light text-xl">Author:</p>

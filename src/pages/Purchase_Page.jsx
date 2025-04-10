@@ -43,16 +43,16 @@ const Purchase_Page = () => {
                     <section className="flex-[0.5] xl:flex-[0.3] flex flex-col justify-between gap-4">
                         <section className="flex flex-col gap-4">
                             <h1 className="text-3xl mb-4 font-serif font-bold">SAMPLES</h1>
-                            <img className="w-full aspect-[3/2.5] object-cover" src="/assets/ProductSample/S1.png"/>
-                            <img className="w-full aspect-[3/2.5] object-cover" src="/assets/ProductSample/S2.png"/>
-                            <img className="w-full aspect-[3/2.5] object-cover" src="/assets/ProductSample/S3.png"/>
-                            <img className="w-full aspect-[3/2.5] object-cover" src="/assets/ProductSample/S4.png"/>
-                            <img className="w-full aspect-[3/2.5] object-cover" src="/assets/ProductSample/SFrame.png"/>
+                            <img className="w-full aspect-[3/2.5] object-cover" src="/GalerieWebsite/assets/ProductSample/S1.png"/>
+                            <img className="w-full aspect-[3/2.5] object-cover" src="/GalerieWebsite/assets/ProductSample/S2.png"/>
+                            <img className="w-full aspect-[3/2.5] object-cover" src="/GalerieWebsite/assets/ProductSample/S3.png"/>
+                            <img className="w-full aspect-[3/2.5] object-cover" src="/GalerieWebsite/assets/ProductSample/S4.png"/>
+                            <img className="w-full aspect-[3/2.5] object-cover" src="/GalerieWebsite/assets/ProductSample/SFrame.png"/>
                         </section>
 
                         <section className="flex flex-col gap-2">
                             <strong>TRY IN REALITY</strong>
-                            <img className="w-[50%] xl:w-[25%] aspect-square object-contain" src="/assets/RandomQR.png"/>
+                            <img className="w-[50%] xl:w-[25%] aspect-square object-contain" src="/GalerieWebsite/assets/RandomQR.png"/>
                         </section>
                     </section>
 

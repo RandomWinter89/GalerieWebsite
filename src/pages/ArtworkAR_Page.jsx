@@ -13,7 +13,7 @@ const ArtworkAR_Page = () => {
     let { Id } = useParams();
 
     const accessStory = () => {
-        navigate(`/Story/${Id}`);
+        navigate(`/GalerieWebsite/Story/${Id}`);
     }
 
     useEffect(() => {

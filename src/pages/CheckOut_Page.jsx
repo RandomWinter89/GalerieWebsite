@@ -74,7 +74,7 @@ const CheckOut_Page = () => {
                         <textarea placeholder="Note about your order..." className="h-48 py-4 px-6 resize-none bg-[#EBE7DFCC]"/>
                     </section>
 
-                    <button type="button" className="w-fit mx-auto px-24 py-4 rounded-3xl border border-black" onClick={(e) => {e.stopPropagation(); navigate("/Submitted");}}>Place Order</button>
+                    <button type="button" className="w-fit mx-auto px-24 py-4 rounded-3xl border border-black" onClick={(e) => {e.stopPropagation(); navigate("/GalerieWebsite/Submitted");}}>Place Order</button>
                 </form>
 
                 <div className="mx-8 border border-[#887A5E]"/>

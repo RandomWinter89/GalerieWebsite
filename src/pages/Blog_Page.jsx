@@ -36,7 +36,7 @@ const Blog_Page = () => {
         {!isloading && (
             <> 
                 <main className="flex flex-col gap-8 px-20 pt-32 pb-8 bg-[#FFFDF9]">
-                    <button className="w-fit text-yellow-600 text-2xl" onClick={() => {navigate(`/Category/${3}`)}}>Return Button</button>
+                    <button className="w-fit text-yellow-600 text-2xl" onClick={() => {navigate(`/GalerieWebsite/Category/${3}`)}}>Return Button</button>
                     <h1 className="text-center my-6 text-6xl font-serif">{blogData.title}</h1>
                 </main>
                 

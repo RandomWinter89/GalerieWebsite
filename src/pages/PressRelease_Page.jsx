@@ -37,7 +37,7 @@ const PressRelease_Page = () => {
         < >
             <main className="flex flex-col gap-10 px-20 py-32 bg-[#FFFDF9]">
                 {!isloading && <>
-                    <button className="w-fit text-yellow-600 text-2xl" onClick={() => {navigate(`/Category/${1}`)}}>Return Button</button>
+                    <button className="w-fit text-yellow-600 text-2xl" onClick={() => {navigate(`/GalerieWebsite/Category/${1}`)}}>Return Button</button>
 
                     <section className="flex flex-col gap-3">
                         <h1 className="text-5xl font-serif font-semibold">{prData.previewTitle}</h1>

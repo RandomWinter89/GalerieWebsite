@@ -14,7 +14,7 @@ const ArtCollection_Page = () => {
     const toggleFilterMode = () => setFilterMode(!filterMode);
 
     let navigate = useNavigate();
-    const accessStory = (id) => navigate(`/Story/${id}`);
+    const accessStory = (id) => navigate(`/GalerieWebsite/Story/${id}`);
 
     const loadMore = () => setVisibleCount((prev) => Math.min(prev + MAXIMUM_DISPLAY, artwork.length));
 

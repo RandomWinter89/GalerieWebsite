@@ -118,7 +118,7 @@ const Purchase_Page = () => {
                             </header>
 
                             <section className="flex-[0.5] flex flex-col justify-end gap-2">
-                                <button className="bg-black text-white font-bold py-2 " onClick={() => navigate("/Cart")}>Add to Cart</button>
+                                <button className="bg-black text-white font-bold py-2 " onClick={() => navigate("/GalerieWebsite/Cart")}>Add to Cart</button>
                                 {/* <button className="border border-black bg-white py-2 text-xs">Chat with the artist</button> */}
                             </section>
                         </section>

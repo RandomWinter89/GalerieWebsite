@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const NavLink = ({direction, info, handleClose}) => {
   return (
-    <Link to={`/${direction}`} onClick={handleClose} className="max-sm:text-sm max-lg:text-lg text-5xl text-left">
+    <Link to={`/GalerieWebsite${direction}`} onClick={handleClose} className="max-sm:text-sm max-lg:text-lg text-5xl text-left">
       {info}
     </Link>
   )
@@ -108,10 +108,10 @@ const NavigationBar = () => {
             <div className="flex gap-4 h-full py-16">
               <nav className="flex-1 flex flex-col justify-center items-start gap-8 px-16 border-white border-r-2 ">
                 <NavLink direction="" info="Home" handleClose={handleExpand}/>
-                <NavLink direction="Bookmark" info="Bookmark" handleClose={handleExpand}/>
-                <NavLink direction="Collection" info="Collection" handleClose={handleExpand}/>
-                <NavLink direction={`Category/${3}`} info="Blog" handleClose={handleExpand}/>
-                <NavLink direction="Proposal" info="Propose Your Work" handleClose={handleExpand}/>
+                <NavLink direction="/Bookmark" info="Bookmark" handleClose={handleExpand}/>
+                <NavLink direction="/Collection" info="Collection" handleClose={handleExpand}/>
+                <NavLink direction={`/Category/${3}`} info="Blog" handleClose={handleExpand}/>
+                <NavLink direction="/Proposal" info="Propose Your Work" handleClose={handleExpand}/>
               </nav>
 
               <aside className="flex-1 flex flex-col justify-center gap-6 px-16">

@@ -38,7 +38,7 @@ const Exhibition_Page = () => {
                 {!isloading && (< >
                     <section className="flex flex-col gap-8 px-20 pt-32 pb-8">
                         {/* Remember to use <------ logo */}
-                        <button className="w-fit text-yellow-600 text-2xl" onClick={() => {navigate(`/Category/${0}`)}}>Return Button</button>
+                        <button className="w-fit text-yellow-600 text-2xl" onClick={() => {navigate(`/GalerieWebsite/Category/${0}`)}}>Return Button</button>
                         {/* Properly 1250w/700h ratio */}
                         <img className="bg-indigo-300 h-[40rem] w-full object-cover" src={expoData.previewImage}/>
                         <article className="flex flex-col gap-8">

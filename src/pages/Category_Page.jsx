@@ -18,10 +18,6 @@ const Exhibition = () => {
     const [ events ] = useState(ExhibitionStorage);
     let navigate = useNavigate();
 
-    const handleReleasePage = (id) => {
-        navigate(`/Exhibition/${id}`);
-    }
-
     return (
         < >
             {/* <div className="flex flex-col gap-8">
@@ -39,7 +35,7 @@ const Exhibition = () => {
                     // <Article key={index} info={data} handleData={() => handleReleasePage(data.id)}/>
                     <EventArticle 
                         eventData={data} 
-                        handleOpen={() => navigate(`/Exhibition/${data.id}`)}
+                        handleOpen={() => navigate(`/GalerieWebsite/Exhibition/${data.id}`)}
                     />
                 )}
             </section>
@@ -55,7 +51,7 @@ const PressRelease = () => {
     let navigate = useNavigate();
 
     const handleReleasePage = (id) => {
-        navigate(`/PressRelease/${id}`);
+        navigate(`/GalerieWebsite/PressRelease/${id}`);
     }
 
     return (
@@ -183,7 +179,7 @@ const Community = () => {
     let navigate = useNavigate();
 
     const handleCommunityPage = (id) => {
-        navigate(`/Community/${id}`);
+        navigate(`/GalerieWebsite/Community/${id}`);
     }
 
     return (
@@ -224,7 +220,7 @@ const Blog = () => {
     let navigate = useNavigate();
 
     const handleReleasePage = (id) => {
-        navigate(`/Blog/${id}`);
+        navigate(`/GalerieWebsite/Blog/${id}`);
     }
 
     return (

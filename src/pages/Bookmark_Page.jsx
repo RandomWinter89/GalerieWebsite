@@ -9,7 +9,7 @@ const Bookmark_Page = () => {
 
     let navigate = useNavigate();
     const onNavigate = (id) => {
-        navigate(`/Story/${id}`);
+        navigate(`/GalerieWebsite/Story/${id}`);
     }
 
     useEffect(() => {
@@ -38,7 +38,7 @@ const Bookmark_Page = () => {
             </header>
 
             <section className="grid grid-cols-4 gap-8 2xl:grid-cols-8">
-                <button className="w-full h-[14rem] bg-gray-400 text-white text-2xl" onClick={() => navigate("/Collection")}>+</button>
+                <button className="w-full h-[14rem] bg-gray-400 text-white text-2xl" onClick={() => navigate("/GalerieWebsite/Collection")}>+</button>
 
                 {bookmarks && <>
                     {bookmarks.map((artwork, index) => (

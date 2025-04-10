@@ -33,17 +33,17 @@ const FooterBar = () => {
 
                 <nav className="flex justify-between gap-12 text-lg max-xl:text-base max-sm:gap-4 max-sm:text-sm">
                     <section className="flex flex-col gap-5 max-xl:gap-3 max-sm:gap-2">
-                        <button className="text-left" onClick={() => navigate("/")}>HOME</button>
-                        <button className="text-left" onClick={() => navigate(`/Category/${0}`)}>EXHIBITION</button>
-                        <button className="text-left" onClick={() => navigate("/Collection")}>COLLECTION</button>
-                        <button className="text-left" onClick={() => navigate("/Proposal")}>PROPOSE YOUR WORK</button>
+                        <button className="text-left" onClick={() => navigate("/GalerieWebsite")}>HOME</button>
+                        <button className="text-left" onClick={() => navigate(`/GalerieWebsite/Category/${0}`)}>EXHIBITION</button>
+                        <button className="text-left" onClick={() => navigate("/GalerieWebsite/Collection")}>COLLECTION</button>
+                        <button className="text-left" onClick={() => navigate("/GalerieWebsite/Proposal")}>PROPOSE YOUR WORK</button>
                     </section>
 
                     <section className="flex flex-col gap-5 max-xl:gap-3 max-sm:gap-2">
-                        <button className="text-left" onClick={() => navigate("/Cart")}>CART</button>
-                        <button className="text-left" onClick={() => navigate(`/Category/${3}`)}>BLOG</button>
-                        <button className="text-left" onClick={() => navigate(`/Category/${1}`)}>PRESS RELEASE</button>
-                        <button className="text-left" onClick={() => navigate(`/Category/${2}`)}>OUR COMMUNITY</button>
+                        <button className="text-left" onClick={() => navigate("/GalerieWebsite/Cart")}>CART</button>
+                        <button className="text-left" onClick={() => navigate(`/GalerieWebsite/Category/${3}`)}>BLOG</button>
+                        <button className="text-left" onClick={() => navigate(`/GalerieWebsite/Category/${1}`)}>PRESS RELEASE</button>
+                        <button className="text-left" onClick={() => navigate(`/GalerieWebsite/Category/${2}`)}>OUR COMMUNITY</button>
                     </section>
                 </nav>
             </section>

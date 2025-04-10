@@ -15,7 +15,7 @@ const ArtworkStory_Page = () => {
 
     let navigate = useNavigate();
     const toPurchasePage = (id) => {
-        navigate(`/Purchase/${id}`);
+        navigate(`/GalerieWebsite/Purchase/${id}`);
     }
 
     useEffect(() => {
@@ -66,7 +66,7 @@ const ArtworkStory_Page = () => {
 
                             <div className="flex-1 flex flex-col">
                                 <p className="font-light xl:text-xl">Artist:</p>
-                                <p className="font-medium text-lg cursor-pointer xl:text-2xl" onClick={() => navigate(`/Artist/${artist.id}`)}>{artwork.artist}</p>
+                                <p className="font-medium text-lg cursor-pointer xl:text-2xl" onClick={() => navigate(`/GalerieWebsite/Artist/${artist.id}`)}>{artwork.artist}</p>
                             </div>
                         </div>
 

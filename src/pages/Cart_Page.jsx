@@ -80,7 +80,7 @@ const Cart_Page = () => {
                 <strong className="font-semibold text-2xl xl:text-4xl text-yellow-600">RM1000.00</strong>
             </div>
 
-            <button className="mx-auto border px-12 py-6 rounded-3xl text-xl font-medium border-black" onClick={() => navigate("/Checkout")}>Proceed to checkout</button>
+            <button className="mx-auto border px-12 py-6 rounded-3xl text-xl font-medium border-black" onClick={() => navigate("/GalerieWebsite/Checkout")}>Proceed to checkout</button>
         </main>
     )
 }

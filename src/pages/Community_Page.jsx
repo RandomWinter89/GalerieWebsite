@@ -31,7 +31,7 @@ const Community_Page = () => {
         < >
             <main className="flex flex-col gap-10 px-20 py-32 bg-[#FFFDF9]">
                 {!isloading && (< >
-                    <button className="w-fit text-yellow-600 text-2xl" onClick={() => {navigate(`/Category/${2}`)}}>Return Button</button>
+                    <button className="w-fit text-yellow-600 text-2xl" onClick={() => {navigate(`/GalerieWebsite/Category/${2}`)}}>Return Button</button>
 
                     <img className="w-full h-[24rem] border border-black rounded-3xl xl:h-[48rem] object-cover" src={commData.previewImage}/>
 

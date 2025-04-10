@@ -92,7 +92,7 @@ const PressRelease = () => {
                     <article 
                         className="h-[42rem] flex-[8] flex flex-col gap-6 justify-end items-start px-16 py-12 bg-red-400 cursor-pointer
                         max-sm:flex-auto max-sm:h-[26rem] max-lg:gap-4 max-sm:gap-2 max-sm:px-8 max-sm:py-6"
-                        style={{ backgroundImage: `${pressRelease[0].previewImage}`}} 
+                        style={{ backgroundImage: `${pressRelease[0].previewPicture}`}} 
                         onClick={() => {handleReleasePage(pressRelease[0].id)}}
                     >
                         <div className="flex flex-wrap gap-3 text-white text-lg max-lg:text-base max-sm:text-xs max-sm:gap-2">
@@ -238,7 +238,7 @@ const Blog = () => {
             <div className="w-full h-full mt-6 grid grid-cols-3 gap-6 lg:grid-cols-4 xl:grid-cols-5">
                 {blogs.map((data, index) => 
                     <section key={index} className="flex flex-col gap-3">
-                        <img className="w-full h-[24rem] aspect-[9:16] rounded-2xl shadow-2xl mb-2" src={`${data.previewImage}`}/>
+                        <img className="w-full h-[24rem] aspect-[9:16] rounded-2xl shadow-2xl mb-2 bg-cover" src={`${data.previewImage}`}/>
                         <p className="font-light text-lg">{data.releaseDate}</p>
                         <h5 className="uppercase font-serif text-3xl">{data.title}</h5>
                         <p className="font-light text-lg">{data.description}</p>

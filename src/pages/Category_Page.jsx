@@ -92,7 +92,7 @@ const PressRelease = () => {
                     <article 
                         className="h-[42rem] flex-[8] flex flex-col gap-6 justify-end items-start px-16 py-12 bg-red-400 cursor-pointer
                         max-sm:flex-auto max-sm:h-[26rem] max-lg:gap-4 max-sm:gap-2 max-sm:px-8 max-sm:py-6"
-                        style={{ backgroundImage: `${pressRelease[0].previewPicture}`}} 
+                        style={{ backgroundImage: `url(${pressRelease[0].previewPicture})`}} 
                         onClick={() => {handleReleasePage(pressRelease[0].id)}}
                     >
                         <div className="flex flex-wrap gap-3 text-white text-lg max-lg:text-base max-sm:text-xs max-sm:gap-2">

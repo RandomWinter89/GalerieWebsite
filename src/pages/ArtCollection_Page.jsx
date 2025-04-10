@@ -20,7 +20,7 @@ const ArtCollection_Page = () => {
 
     return (
         < >
-            <section className="h-[32rem] xl:h-[54rem] pt-24 flex bg-cover bg-center" style={{backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/GalleryCollection.png)`}}>
+            <section className="h-[32rem] xl:h-[54rem] pt-24 flex bg-cover bg-center" style={{backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/GalerieWebsite/assets/GalleryCollection.png)`}}>
                 <img className="m-auto w-[80%] xl:w-[60%] aspect-[4/1] object-contain" src="/GalerieWebsite/assets/CollectionImage.png"/>
             </section>
 

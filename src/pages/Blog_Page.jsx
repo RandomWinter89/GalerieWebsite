@@ -81,7 +81,7 @@ const Blog_Page = () => {
                                     </aside>
 
                                     <div className="flex-[2] xl:flex-[6]">
-                                        <img className="w-full h-[6rem] mb-6 bg-orange-600" src={`/GalerieWebsite/assets/Files/B02.png`}/>
+                                        <img className="w-full h-[6rem] mb-6 bg-cover" src={`/GalerieWebsite/assets/Files/B02.png`}/>
                                         <div className="flex flex-col gap-6 text-xl font-light">
                                             {ExtractParagraph(content.information).map((para, index) => <p key={index}>{para}</p>)}
                                         </div>

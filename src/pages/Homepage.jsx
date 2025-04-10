@@ -35,7 +35,7 @@ const Homepage = () => {
 
                     <EventArticle 
                         eventData={exhibitionData[0]} 
-                        handleOpen={() => navigate(`/Exhibition/${exhibitionData[0].id}`)}
+                        handleOpen={() => navigate(`/GalerieWebsite/Exhibition/${exhibitionData[0].id}`)}
                     />
                 </Container>
 
@@ -51,7 +51,7 @@ const Homepage = () => {
                     <section className="grid gap-6 grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                         {artworkData.map((data, index) => 
                             <section key={index} className="w-full">
-                                <div className="w-full h-[24rem] bg-cover bg-center flex justify-end items-start p-4 mb-3" style={{backgroundImage: `url(${data.previewPicture})`}} onClick={() => navigate(`/Story/${data.id}`)}>
+                                <div className="w-full h-[24rem] bg-cover bg-center flex justify-end items-start p-4 mb-3" style={{backgroundImage: `url(${data.previewPicture})`}} onClick={() => navigate(`/GalerieWebsite/Story/${data.id}`)}>
                                     {/* <button className="text-white font-extrabold">O</button> */}
                                 </div>
                                 <p className="text-lg/4 font-semibold">{data.artworkName}</p>

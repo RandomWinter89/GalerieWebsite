@@ -1,7 +1,7 @@
 export const ExhibitionStorage = [
     {
         id: "E01_M_KL",
-        previewImage: "/assets/Gallery01.png",
+        previewImage: "/GalerieWebsite/assets/Gallery01.png",
         eventName: "Vincent van Gogh Art History",
         location: "Kuala Lumpur",
         startDate: "22-5-2024",

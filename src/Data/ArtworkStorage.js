@@ -1,7 +1,7 @@
 export const ArtworkStorage = [
     {
         id: "AW01_JDz_VoF_OP",
-        previewPicture: "/assets/VaseFlower.png",
+        previewPicture: "/GalerieWebsite/assets/VaseFlower.png",
         artworkName: "Vase of Flowers",
         artistId: "AC01_JDz",
         artist: "Jan Davidsz. de Heem",
@@ -21,7 +21,7 @@ export const ArtworkStorage = [
     },
     {
         id: "AW02_JDz_VoD_OP",
-        previewPicture: "/assets/VaseFlower.png",
+        previewPicture: "/GalerieWebsite/assets/VaseFlower.png",
         artworkName: "Vase of Diseas",
         artistId: "AC01_JDz",
         artist: "Jan Davidsz. de Heem",

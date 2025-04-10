@@ -2,7 +2,7 @@ export const UsersData = [
     {
         id: "U01_MCg",
         name: "Maria Ching",
-        profile: "../assets/Users/Anoymaus.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Reporter",
         carts: [
             "AW01_JDz_VoF_OP",
@@ -15,7 +15,7 @@ export const UsersData = [
     {
         id: "U02_JDk",
         name: "James Duke",
-        profile: "../assets/Users/James.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Editor",
         carts: [
         ],
@@ -26,7 +26,7 @@ export const UsersData = [
     {
         id: "U03_SLn",
         name: "Sophia Lynn",
-        profile: "../assets/Users/Sophia.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Photographer",
         carts: [
         ],
@@ -37,7 +37,7 @@ export const UsersData = [
     {
         id: "U04_WBr",
         name: "William Barker",
-        profile: "../assets/Users/William.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Journalist",
         carts: [
         ],
@@ -48,7 +48,7 @@ export const UsersData = [
     {
         id: "U05_AVy",
         name: "Alice Vanny",
-        profile: "../assets/Users/Alice.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Researcher",
         carts: [
         ],
@@ -59,7 +59,7 @@ export const UsersData = [
     {
         id: "U06_CLk",
         name: "Christopher Lark",
-        profile: "../assets/Users/Chris.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "News Anchor",
         carts: [
         ],
@@ -70,7 +70,7 @@ export const UsersData = [
     {
         id: "U07_GRy",
         name: "Grace Riley",
-        profile: "../assets/Users/Grace.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Columnist",
         carts: [
         ],
@@ -81,7 +81,7 @@ export const UsersData = [
     {
         id: "U08_DMz",
         name: "Daniel Mertz",
-        profile: "../assets/Users/Daniel.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Copywriter",
         carts: [
         ],
@@ -92,7 +92,7 @@ export const UsersData = [
     {
         id: "U09_NHp",
         name: "Nathan Hope",
-        profile: "../assets/Users/Nathan.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Investigative Reporter",
         carts: [
         ],
@@ -103,7 +103,7 @@ export const UsersData = [
     {
         id: "U10_ERs",
         name: "Emma Ross",
-        profile: "../assets/Users/Emma.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Content Creator",
         carts: [
         ],
@@ -114,7 +114,7 @@ export const UsersData = [
     {
         id: "U11_LMf",
         name: "Liam Frost",
-        profile: "../assets/Users/Liam.png",
+        profile: "/GalerieWebsite/assets/Users/Anoymaus.png",
         position: "Video Producer",
         carts: [
         ],

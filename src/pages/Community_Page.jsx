@@ -45,48 +45,6 @@ const Community_Page = () => {
                         </div>
                     </section>
 
-                    <section className="flex flex-col gap-6">
-                        <h1 className="font-serif font-medium text-5xl">PODCASTS</h1>
-                        <hr className="border-[#C5BBA7] border-2"/>
-
-                        {/* Insert Audio Data */}
-                        <div className="flex items-center gap-6">
-                            <button className="flex-[0.85] xl:flex-[0.5] h-[5rem] xl:h-[8rem] text-3xl font-bold bg-slate-600 text-white rounded-full">START</button>
-                            <main className="flex-1 flex flex-col">
-                                <h1 className="text-3xl font-serif font-light text-[#1D1D1D]">MEANING</h1>
-
-                                <div className="mt-4 w-full h-1 bg-[#EBE7DF] rounded-full overflow-hidden">
-                                    <div className="bg-[#C5BBA7] h-full w-[20%]"/>
-                                </div>
-
-                                <div className="flex justify-between text-[#C5BBA7]">
-                                    <p>2:48</p>
-                                    <p>4:50</p>
-                                </div>
-                            </main>
-                            {/* EMPTY */}
-                            <div className="flex-[0.5]"/>
-                        </div>
-
-                        <div className="flex items-center gap-6">
-                            <button className="flex-[0.85] xl:flex-[0.5] h-[5rem] xl:h-[8rem] text-3xl font-bold bg-slate-600 text-white rounded-full">START</button>
-                            <main className="flex-1 flex flex-col">
-                                <h1 className="text-3xl font-serif font-light text-[#1D1D1D]">MEANING</h1>
-
-                                {/* <div className="mt-4 w-full h-1 bg-[#EBE7DF] rounded-full overflow-hidden">
-                                    <div className="bg-[#C5BBA7] h-full w-[20%]"/>
-                                </div> */}
-
-                                <div className="flex justify-between text-[#C5BBA7]">
-                                    <p>2:48</p>
-                                    {/* <p>4:50</p> */}
-                                </div>
-                            </main>
-                            {/* EMPTY */}
-                            <div className="flex-[0.5]"/>
-                        </div>
-                    </section>
-
                     {/* Comment Section */}
                     <section className="flex flex-col gap-6">
                         <header className="flex items-end">

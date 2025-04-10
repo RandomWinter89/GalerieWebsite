@@ -40,12 +40,12 @@ const Blog_Page = () => {
                     <h1 className="text-center my-6 text-6xl font-serif">{blogData.title}</h1>
                 </main>
                 
-                <img className="w-full h-[24rem] bg-emerald-200 border-none"/>
+                <img className="w-full h-[24rem] bg-emerald-200 border-none" src={`${blogData.previewImage}`}/>
 
                 <main className="flex flex-col gap-8 px-20 py-16 mb-16 bg-[#FFFDF9]">
                     <header className="flex justify-between items-center">
                         <div className="flex gap-3">
-                            <img className="w-[4rem] aspect-square rounded-full bg-red-600"/>
+                            <img className="w-[4rem] aspect-square rounded-full bg-red-600" src={`/GalerieWebsite/assets/Users/Anoymaus.png`}/>
 
                             <div className="flex flex-col">
                                 <p className="font-light text-xl">Author:</p>
@@ -76,12 +76,12 @@ const Blog_Page = () => {
                             return (
                                 <article className="flex gap-8">
                                     <aside className="flex-[1] xl:h-[20rem]">
-                                        <img className="rounded-t-full w-full h-full border border-black"/>
+                                        <img className="rounded-t-full w-full h-full border border-black" src={`/GalerieWebsite/assets/Files/B01.png`}/>
                                         <p className="font-thin text-sm">{blogData.content.imageDescription}</p>
                                     </aside>
 
                                     <div className="flex-[2] xl:flex-[6]">
-                                        <img className="w-full h-[6rem] mb-6 bg-orange-600"/>
+                                        <img className="w-full h-[6rem] mb-6 bg-orange-600" src={`/GalerieWebsite/assets/Files/B02.png`}/>
                                         <div className="flex flex-col gap-6 text-xl font-light">
                                             {ExtractParagraph(content.information).map((para, index) => <p key={index}>{para}</p>)}
                                         </div>
@@ -93,14 +93,14 @@ const Blog_Page = () => {
                         return (
                             <article className="flex gap-8">
                                 <div className="flex-[2] xl:flex-[6]">
-                                    <img className="w-full h-[6rem] mb-6 bg-orange-600"/>
+                                    <img className="w-full h-[6rem] mb-6 bg-orange-600" src={`/GalerieWebsite/assets/Files/B01.png`}/>
                                     <div className="flex flex-col gap-6 text-xl font-light">
                                         {ExtractParagraph(content.information).map((para, index) => <p key={index}>{para}</p>)}
                                     </div>
                                 </div>
 
                                 <aside className="flex-[1] xl:h-[20rem]">
-                                    <img className="rounded-t-full w-full h-full border border-black"/>
+                                    <img className="rounded-t-full w-full h-full border border-black" src={`/GalerieWebsite/assets/Files/B02.png`}/>
                                     <p className="font-thin text-sm">{blogData.content.imageDescription}</p>
                                 </aside>
                             </article>

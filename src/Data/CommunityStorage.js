@@ -1,7 +1,7 @@
 export const CommunityStorage = [
     {
         id: "C01",
-        previewImage: "",
+        previewImage: "/GalerieWebsite/assets/Files/C1.png",
         category: "Art",
         title: "Beginner Lesson",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu dapibus ligula, eu pulvinar justo. Aenean nec tellus id elit ullamcorper semper sit amet ut turpis.",

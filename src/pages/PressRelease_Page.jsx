@@ -49,13 +49,13 @@ const PressRelease_Page = () => {
                         </nav>
                     </section>
 
-                    <img className="w-full h-[24rem] xl:h-[48rem]"/>
+                    <img className="w-full h-[24rem] xl:h-[48rem]" src={`${prData.previewPicture}`}/>
 
                     <div className="flex gap-6">
                         <aside className="flex-shrink-[0.65] flex flex-col gap-12">
                             <header className="flex flex-col gap-7 pr-6 border-r border-black">
                                 <div className="flex gap-3">
-                                    <img className="w-[4rem] aspect-square rounded-full object-cover" src={author.previewPicture}/>
+                                    <img className="w-[4rem] aspect-square rounded-full object-cover" src={author.profile}/>
 
                                     <div className="flex flex-col">
                                         <p className="font-light text-xl">{author.position}:</p>
@@ -75,7 +75,7 @@ const PressRelease_Page = () => {
                                 <h4 className="text-3xl font-serif">RELATED NEWS</h4>
 
                                 <button className="flex flex-col gap-2">
-                                    <img className="w-full h-[9rem]" />
+                                    <img className="w-full h-[9rem]" src={"/GalerieWebsite/assets/Files/PR03.png"}/>
                                     <div className="my-2 flex flex-wrap">
                                         <span className="px-6 py-1 border border-black rounded-full">Interview</span>
                                     </div>
@@ -84,7 +84,7 @@ const PressRelease_Page = () => {
                                 </button>
 
                                 <button className="flex flex-col gap-2">
-                                    <img className="w-full h-[9rem]" />
+                                    <img className="w-full h-[9rem]" src={"/GalerieWebsite/assets/Files/PR04.png"}/>
                                     <div className="my-2 flex flex-wrap">
                                         <span className="px-6 py-1 border border-black rounded-full">Interview</span>
                                     </div>
@@ -101,7 +101,7 @@ const PressRelease_Page = () => {
                                 {ExtractParagraph(prData.contentInfo).map((para, index) => <p key={index}>{para}</p>)}
                             </section>
 
-                            <img className=" my-6 w-full xl:h-[20rem] h-[10rem] border border-black rounded-3xl"/>
+                            <img className=" my-6 w-full xl:h-[20rem] h-[10rem] border border-black rounded-3xl" src={`${prData.contentPicture}`}/>
                         </section>
                     </div>
                 </>}

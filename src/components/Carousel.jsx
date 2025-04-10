@@ -19,7 +19,7 @@ const Carousel = ({collection}) => {
                 <header className="flex flex-col gap-4 mt-auto">
                     <h1 className="font-serif text-4xl max-lg:text-2xl max-sm:text-lg">Today's artist -<br/> {collection[indexView].name}</h1>
                     <p className="w-[46ch] font-light text-lg max-lg:text-sm">{collection[indexView].quote}</p>
-                    <button className="w-fit font-semibold underline uppercase text-lg" onClick={() => navigate(`/Artist/${collection[indexView].id}`)}>Read More</button>
+                    <button className="w-fit font-semibold underline uppercase text-lg" onClick={() => navigate(`/GalerieWebsite/Artist/${collection[indexView].id}`)}>Read More</button>
                 </header>
 
                 <nav className="flex gap-1 h-2 mt-auto mx-auto">
